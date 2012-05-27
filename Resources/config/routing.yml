@@ -1,0 +1,15 @@
+axioma_translator_list:
+    pattern:  /axioma/translator/list
+    defaults: { _controller: AxiomaTranslatorBundle:AxiomaTranslator:list }
+
+axioma_translator_add:
+    pattern:  /axioma/translator/add
+    defaults: { _controller: AxiomaTranslatorBundle:AxiomaTranslator:add }
+
+axioma_translator_update:
+    pattern:  /axioma/translator/update
+    defaults: { _controller: AxiomaTranslatorBundle:AxiomaTranslator:update }
+
+axioma_translator_remove:
+    pattern:  /axioma/translator/remove
+    defaults: { _controller: AxiomaTranslatorBundle:AxiomaTranslator:remove }
